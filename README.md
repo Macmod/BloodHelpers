@@ -5,5 +5,5 @@ A simple set of JQ scripts to gather important info from BloodHound dumps and st
 # Usage
 
 ```bash
-$ ./BloodHelpers.sh <INDIR> [<OUTDIR>]
+$ ./bloodHelpers.sh <INDIR> [<OUTDIR>]
 ```
