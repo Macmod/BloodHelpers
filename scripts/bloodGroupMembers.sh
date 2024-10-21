@@ -14,7 +14,7 @@ done
 
 echo "[~] Sorting SIDs..."
 tmpfile=$(mktemp)
-sort -u -t',' -k1b,1 $OUTDIR/membersids.csv > $tmpfile
+sort -t',' -k1b,1 $OUTDIR/membersids.csv | uniq > $tmpfile
 mv $tmpfile $OUTDIR/membersids.csv
 
 echo "[+] Done"
